@@ -1,0 +1,41 @@
+/* CONTACTS */
+
+.contacts__list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.contacts__item {
+    display: flex;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+
+    color: $sonic-silver-color;
+    font-weight: 500;
+    line-height: $primary-line-height;
+    letter-spacing: 0.02em;
+
+    transition: color $transition;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+}
+
+.contacts__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}

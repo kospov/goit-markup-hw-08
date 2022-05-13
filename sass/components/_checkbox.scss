@@ -1,0 +1,39 @@
+/* CUSTOM CHECKBOX */
+
+.custom-checkbox {
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    
+    width: 16px;
+    height: 16px;
+    border: 2px solid $light-black-color;
+    border-radius: 2px;
+
+    background-color: $white-color;
+
+    .modal-form__input-policy:hover + &,
+    .modal-form__input-policy:focus + & {
+        border-color: $accent-color;
+    }
+
+    .modal-form__input-policy:checked + & {
+        background-color: $accent-color;
+    }
+
+    .modal-form__input-policy:not(:hover) + &,
+    .modal-form__input-policy:not(:focus) + &
+    .modal-form__input-policy:not(:checked) + & {
+        border-color: $light-black-color;
+    }
+}
+
+.custom-checkbox__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 11px;
+    height: 8px;
+}

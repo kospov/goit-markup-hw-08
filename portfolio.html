@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Портфолио</title>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+        <link rel="stylesheet" href="./css/main.min.css">
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <!-- LOGO HEADER -->
+                <div class="logo header__logo">
+                    <a href="./index.html" lang="en" class="logo__common">Web<span class="logo__header">Studio</span>
+                    </a>
+                </div>
+                <!-- MENU NAV -->
+                <nav class="nav nav--margined">
+                    <ul class="nav__list list">
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link">Студия</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./portfolio.html" class="nav__link nav__link--current">Портфолио</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- CONTACTS -->
+                <div class="contacts">
+                    <ul class="contacts__list list">
+                        <li class="contacts__item">
+                            <a href="mailto:info@devstudio.com" lang="en" class="contacts__link">
+                                <svg width="16" height="12" class="contacts__icon">
+                                    <use href="./images/icons.svg#icon-mail">
+                                    </use>
+                                </svg>
+                                <p class="contacts__text">
+                                    info@devstudio.com
+                                </p>
+                            </a>
+                        </li>
+                        <li class="contacts__item">
+                            <a href="tel:+380961111111" class="contacts__link">
+                                <svg width="10" height="16" class="contacts__icon">
+                                    <use href="./images/icons.svg#icon-phone">
+                                    </use>
+                                </svg>
+                                <p class="contacts__text">
+                                    +38 096 111 11 11
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+         </div> 
+        </header>
+        <!-- MAIN -->
+        <main>
+            <!-- PORTFOLIO -->
+            <section class="section">
+                <div class="container">
+                    <h1 class="visually-hidden">Портфолио</h1>
+                    <!-- FILTER -->
+                    <ul class="filter__list list">
+                        <li class="filter__item">
+                            <button type="button" class="
+                            filter__btn">Все</button>
+                        </li>
+                        <li class="filter__item">
+                            <button type="button" class="filter__btn">Веб-сайты</button>
+                        </li>
+                        <li class="filter__item">
+                            <button type="button" class="filter__btn">Приложения</button>
+                        </li>
+                        <li class="filter__item">
+                            <button type="button" class="filter__btn">Дизайн</button>
+                        </li>
+                        <li class="filter__item">
+                            <button type="button" class="filter__btn">Маркетинг</button>
+                        </li>
+                    </ul>
+                    <!-- PROJECTS -->
+                    <ul class="project__list list">
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-1.jpg" alt="фото проекта Технокряк" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 class="project__title section__title">Технокряк</h2>
+                                    <p class="project__text">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-2.jpg" alt="фото проекта Постер New Orlean vs Golden Star" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 class="project__title section__title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                                    <p class="project__text">Дизайн</p>
+                                </div>
+                           </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-3.jpg" alt="фото проекта Ресторан Seafood" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 class="project__title section__title">Ресторан <span lang="en">Seafood</span></h2>
+                                    <p class="project__text">Приложение</p>
+                                </div>
+                           </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-4.jpg" alt="фото проекта Prime" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 class="project__title section__title">Проект <span lang="en">Prime</span></h2>
+                                    <p class="project__text">Маркетинг</p>
+                                </div>
+                           </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-5.jpg" alt="фото проекта Boxes" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 class="project__title section__title">Проект <span lang="en">Boxes</span></h2>
+                                    <p class="project__text">Приложение</p>
+
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-6.jpg" alt="фото проекта Inspiration has no Borders" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 lang="en" class="project__title section__title">Inspiration has no Borders</h2>
+                                    <p class="project__text">Веб-сайт</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-7.jpg" alt="фото проекта Издание Limited Edition" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 class="project__title section__title">Издание <span lang="en">Limited Edition</span></h2>
+                                    <p class="project__text">Дизайн</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-8.jpg" alt="фото проекта LAB" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 class="project__title section__title">Проект <span lang="en">LAB</span></h2>
+                                    <p class="project__text">Маркетинг</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="project__item">
+                            <a href="#" class="project__link">
+                                <div class="project__portfolio">
+                                    <img src="./images/project-9.jpg" alt="фото проекта Growing Business" class="project__image">
+                                    <div class="project__overlay">
+                                        <p class="project__description"></p>
+                                    </div>
+                                </div>
+                                <div class="project__info">
+                                    <h2 lang="en" class="project__title section__title">Growing Business</h2>
+                                    <p class="project__text">Приложение</p>
+                                </div>
+                           </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <!-- FOOTER -->
+        <footer class="footer footer--margined">
+            <div class="footer-container container">
+                <div class="footer__contacts">
+                    <a href="./index.html" lang="en" class="footer__logo logo__common logo">Web<span class="logo__footer">Studio</span>
+                    </a>
+                    <address class="address">
+                        <ul class="address__list list">
+                            <li class="address__item">
+                                <a href="https://www.google.com/maps/place/50%C2%B025'36.3%22N+30%C2%B032'18.1%22E/@50.42675,30.5361724,17z" 
+                                class="address__link"
+                                target="_blank"
+                                rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26
+                                </a>
+                            </li>
+                            <li class="address__item">
+                                <a href="mailto:info@example.com" class="address__link-contact">info@example.com
+                                </a>
+                            </li>
+                            <li class="address__item">
+                                <a href="tel:+380991111111" class="address__link-contact">+38 099 111 11 11
+                                </a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer__social">
+                    <p class="footer__text">присоединяйтесь</p>
+                    <!-- SOCIAL WEBS -->
+                    <ul class="social__list list">
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
+                                    <use href="./images/icons.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
+                                    <use href="./images/icons.svg#icon-twitter">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
+                                    <use href="./images/icons.svg#icon-facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item footer__social-item">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="social__link">
+                                <svg class="social__icon footer__social-icon">
+                                    <use href="./images/icons.svg#icon-linkedin">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="subscribe subscribe--margined">
+                    <p class="subscribe__text">Подпишитесь на рассылку</p>
+                    <form class="subscribe__form">
+                        <input type="email" name="mail" placeholder="E-mail" class="subscribe__input">
+                        <button type="submit" class="subscribe__btn button">
+                            Подписаться
+                            <svg class="subscribe__icon social__icon">
+                                <use href="./images/icons.svg#icon-telegram">
+                                </use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+           </div>
+        </footer>
+    </body>
+</html>

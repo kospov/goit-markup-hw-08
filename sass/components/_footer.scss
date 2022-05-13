@@ -1,0 +1,46 @@
+/* FOOTER */
+
+.footer {
+    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: $footer-bg-color;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer--margined {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__contacts {
+    margin-right: 70px;
+}
+
+.footer__text {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    
+    font-weight: $title-font-weight;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $white-color;
+}
+
+.footer__social-item {
+    background: rgba(255,255,255,.1);
+}
+
+.footer__social-icon {
+   fill: $white-color;
+
+}
