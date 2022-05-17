@@ -3,6 +3,9 @@
 .hero {
     // Ограгичение ширины только исключительно из-за размера фонового изображения
     max-width: 1600px;
+    
+    padding-top: 118px;
+    padding-bottom: 118px;
     margin-right: auto;
     margin-left: auto;
  
@@ -15,11 +18,9 @@
 
      @media screen and (min-width:480px) {
         width: 480px;
-        padding-top: 118px;
-        padding-bottom: 118px;
 
         @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-            background-image: url(../../images/hero-mob-2x.jpg);
+            background-image: linear-gradient(rgba(47,48,58,.4), rgba(47,48,58,.4)), url(../../images/hero-mob-2x.jpg);
         }
 
     }
@@ -36,6 +37,7 @@
 
     @media screen and (min-width:1200px) {
         width: 1600px;
+        // height: 600px;
         padding-top: 200px;
         padding-bottom: 200px;
 
@@ -45,9 +47,6 @@
             background-image: url(../../images/hero-desk-2x.jpg);
         }
     }
-
-    
-    
 }
 
 .hero__outer {
@@ -67,7 +66,6 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: $white-color;
-    
 
     @media screen and (min-width: 1200px) {
         width: 696px;

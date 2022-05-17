@@ -31,6 +31,9 @@
     }
     @media screen and (min-width: 1200px) {
         display: flex;
+        width: 100%;
+        justify-content: right;
+        margin-left: auto;
     }
 }
 
@@ -62,7 +65,7 @@
     }
 
     @media screen and (min-width: 480px) {
-            margin-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -84,10 +87,6 @@
 .subscribe__icon {
     position: absolute;
     top: 50%;
-    right: 26px;
+    right: 28px;
     transform: translateY(-50%);
-
-    display: inline-flex;
-    justify-content: end;
-    align-items: center;
 }
