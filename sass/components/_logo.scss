@@ -3,7 +3,7 @@
 .logo {
     font-weight: $title-font-weight;
     font-family: $logo-font-family;
-    font-size: 26px;
+    font-size: 24px;
     line-height: $primary-line-height;
     text-decoration: none;
 
@@ -18,6 +18,10 @@
 
     &__footer {
         color: $white-color;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 26px;
     }
 }
 
