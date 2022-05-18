@@ -21,7 +21,7 @@
 }
 
 .clients__item {
-    width: 45vw;
+    width: 98vw;
     height: 92px;
     margin: 15px;
 
@@ -29,15 +29,15 @@
     border-radius: 4px;
     
     @media screen and (min-width: 480px) {
-        width: 210px;
+        max-width: 210px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 226px;
+        max-width: 226px;
     }
 
     @media screen and (min-width: 1200px) {
-        width: 170px;
+        max-width: 170px;
     }
 }
 

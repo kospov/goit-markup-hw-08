@@ -295,7 +295,7 @@ address {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  z-index: 10;
+  z-index: 6;
 }
 
 .modal__btn:hover,
@@ -642,14 +642,14 @@ address {
 
 @media screen and (min-width: 450px) {
   .modal {
-    width: 450px;
+    max-width: 450px;
     height: 609px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    max-width: 528px;
     height: 581px;
   }
 }
@@ -1235,7 +1235,7 @@ address {
 }
 
 .clients__item {
-  width: 45vw;
+  width: 98vw;
   height: 92px;
   margin: 15px;
   border: 1px solid #afb1b8;
@@ -1244,19 +1244,19 @@ address {
 
 @media screen and (min-width: 480px) {
   .clients__item {
-    width: 210px;
+    max-width: 210px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .clients__item {
-    width: 226px;
+    max-width: 226px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .clients__item {
-    width: 170px;
+    max-width: 170px;
   }
 }
 
