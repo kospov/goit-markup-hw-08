@@ -1,18 +1,18 @@
 /* PROJECTS */
 
 .project__list {
-    margin: -15px -15px;
+    margin: -15px;
 
     @media screen and (min-width: 480px) {
         display: flex;
-        flex-wrap: wrap;;
+        flex-wrap: wrap;
     }
 }
 
 .project__item {
 
     width: 100%;
-    margin: 15px 15px;
+    margin: 15px;
 
     border: 1px solid #eee;
 

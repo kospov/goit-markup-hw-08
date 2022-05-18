@@ -5,14 +5,24 @@
     top: 50%;
     left: 50%;
 
-    width: 528px;
-    height: 581px;
+    width: 100%;
+    height: auto;
     padding: 40px 40px;
 
     background-color: $white-color;
 
     transform: translate(-50%,-50%);
     transition: transform $modal-window;
+
+    @media screen and (min-width: 450px) {
+         width: 450px;
+        height: 609px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+         width: 528px;
+        height: 581px;
+    }
 }
 
 .backdrop.is-hidden .modal {

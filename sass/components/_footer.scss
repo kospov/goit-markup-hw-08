@@ -38,26 +38,17 @@
 .footer__logo {
     justify-content: center;
     margin-bottom: 20px;
-    
-    // @media screen and (min-width:768px) {
-    //     justify-content: left;
-    // }
-
 }
 
 .footer__contacts {
     margin-bottom: 60px;
-
-    @media screen and (min-width:480px) {
-       margin-bottom: 60px; 
-    }
 
     @media screen and (min-width:768px) {
         width: 232px;
     }
     
     @media screen and (min-width:1200px) {
-        margin-right: 70px;;
+        margin-right: 70px;
     }
 }
 

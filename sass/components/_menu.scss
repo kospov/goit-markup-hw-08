@@ -1,0 +1,21 @@
+.menu__icon {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+
+
+    fill: $black-color;
+
+    transition: fill $transition;
+
+    .menu__btn:hover &,
+    .menu__btn__btn:focus & {
+        fill: $accent-color;
+    }
+}
+
+.menu__btn .menu__icon-close {
+    display: none;
+}

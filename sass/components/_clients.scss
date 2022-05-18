@@ -16,15 +16,15 @@
 
 .clients__list {
     @include centeredFlex;
-    // display: flex;
     flex-wrap: wrap;
-    margin: -15px -15px;
+    margin: -15px;
 }
 
 .clients__item {
     width: 30%;
     height: 92px;
-    margin: 15px 15px;
+    margin-top: 15px;
+    margin-left: 15px;
 
     border: 1px solid #afb1b8;
     border-radius: 4px;
