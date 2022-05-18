@@ -1,12 +1,21 @@
 .header {
     border-bottom: 1px solid #ececec;
+    
+    // mobile-only
+    @media screen and (max-width: 767px) {
+        padding-top: 10px;
+        padding-bottom: 10px;
+  }
 }
 
-// .header .container {
-//     display: flex;
-//     align-items: center;
-// }
+.header__container {
+    display: flex;
+    align-items: center;
+}
 
 .header__logo {
-    margin-right: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    // margin-right: 92px;
 }

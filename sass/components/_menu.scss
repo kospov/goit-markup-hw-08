@@ -1,21 +1,38 @@
+.menu__btn {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+
+    display: block;
+    width: 40px;
+    height: 40px;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
 .menu__icon {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+
     display: inline-flex;
     padding: 0;
     margin: 0;
     border: none;
     background-color: transparent;
-
-
-    fill: $black-color;
-
-    transition: fill $transition;
-
-    .menu__btn:hover &,
-    .menu__btn__btn:focus & {
-        fill: $accent-color;
-    }
 }
 
 .menu__btn .menu__icon-close {
+    display: none;
+}
+
+.menu__btn.is-open .menu__icon-close {
+    display: block;
+}
+
+.menu__btn.is-open .menu__icon {
     display: none;
 }
