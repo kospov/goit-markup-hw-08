@@ -17,6 +17,11 @@
         right: 15px;
         z-index: 10;
     }
+
+    &:hover ,
+    &:focus {
+        fill: $accent-color;
+    }
 }
 
 .menu__icon-open {
@@ -26,10 +31,10 @@
 
     transition: fill $transition;
 
-    .menu__btn:hover &,
-    .menu__btn:focus & {
-        fill: $accent-color;
-    }
+    // .menu__btn:hover.is-open &,
+    // .menu__btn:focus.is-open & {
+    //     fill: $accent-color;
+    // }
 }
 .menu__btn.is-open .menu__icon-open {
     opacity: 0;
