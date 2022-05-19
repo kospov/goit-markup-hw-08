@@ -22,7 +22,7 @@
 .menu__icon-open {
     opacity: 1;
 
-    // fill: currentColor;
+    fill: currentColor;
 
     transition: fill $transition;
 
@@ -31,12 +31,22 @@
         fill: $accent-color;
     }
 }
+
 .menu__btn.is-open .menu__icon-open {
     opacity: 0;
 }
 
 .menu__icon-close {
     opacity: 0;
+
+    fill: currentColor;
+
+    transition: fill $transition;
+
+    .menu__btn:hover &,
+    .menu__btn:focus & {
+        fill: $accent-color;
+    }
 }
 
 .menu__btn.is-open .menu__icon-close {
