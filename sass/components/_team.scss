@@ -30,7 +30,7 @@
 }
 
 .team__item {
-    width: 100%;
+    max-width: 100vw;
     margin: 15px;
 
     background-color: $white-color;
@@ -38,16 +38,21 @@
     border-radius: 0px 0px 4px 4px;
 
     @media screen and (min-width: 480px) {
-        width: 450px;
+        max-width: 450px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 354px;
+        max-width: 354px;
     }
 
         @media screen and (min-width: 1200px) {
-        width: 270px;
+        max-width: 270px;
     }
+}
+
+.team__image {
+    display: block;
+    width: 100%;
 }
 
 .team__colleague {

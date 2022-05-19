@@ -11,7 +11,7 @@
 
 .project__item {
 
-    width: 100%;
+    max-width: 320px;
     margin: 15px;
 
     border: 1px solid #eee;
@@ -24,16 +24,16 @@
     }
 
     @media screen and (min-width: 480px) {
-        width: 450px;
+        max-width: 450px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 354px;
+        max-width: 354px;
     }
 
     
     @media screen and (min-width: 1200px) {
-        width: 370px;
+        max-width: 370px;
     }
 }
 

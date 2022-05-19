@@ -38,6 +38,9 @@
 .footer__logo {
     justify-content: center;
     margin-bottom: 20px;
+    @media screen and (min-width:1200px) {
+        justify-content: left;
+    }
 }
 
 .footer__contacts {
@@ -49,6 +52,7 @@
     
     @media screen and (min-width:1200px) {
         margin-right: 70px;
+        text-align: left;
     }
 }
 
@@ -61,6 +65,10 @@
     line-height: 1.14;
     text-transform: uppercase;
     color: $white-color;
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+    }
 }
 
 .footer__social {

@@ -12,19 +12,19 @@
 }
 
 .features__item {
-    width: 100%;
+    max-width: 320px;
     margin: 15px;
 
     @media screen and (min-width: 480px) {
-        width: 450px;
+        max-width: 450px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 354px;
+        max-width: 354px;
     }
 
         @media screen and (min-width: 1200px) {
-        width: 270px;
+        max-width: 270px;
     }
 }
 
@@ -48,8 +48,13 @@
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+
+    @media screen and (min-width:450px) {
+        text-align: left;
+    }
 }
 
 .features__text {
     line-height: 1.71;
+    text-align: left;
 }

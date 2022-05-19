@@ -19,6 +19,10 @@
     line-height: 1.14;
     text-transform: uppercase;
     color: $white-color;
+
+    @media screen and (min-width:1200px) {
+        text-align: left;
+    }
 }
 
 .subscribe__form {

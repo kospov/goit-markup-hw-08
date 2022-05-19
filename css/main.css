@@ -932,25 +932,25 @@ address {
 }
 
 .features__item {
-  width: 100%;
+  max-width: 320px;
   margin: 15px;
 }
 
 @media screen and (min-width: 480px) {
   .features__item {
-    width: 450px;
+    max-width: 450px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .features__item {
-    width: 354px;
+    max-width: 354px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .features__item {
-    width: 270px;
+    max-width: 270px;
   }
 }
 
@@ -982,8 +982,15 @@ address {
   text-transform: uppercase;
 }
 
+@media screen and (min-width: 450px) {
+  .features__title {
+    text-align: left;
+  }
+}
+
 .features__text {
   line-height: 1.71;
+  text-align: left;
 }
 
 /* WORKS */
@@ -1089,7 +1096,7 @@ address {
 }
 
 .team__item {
-  width: 100%;
+  max-width: 100vw;
   margin: 15px;
   background-color: #fff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1099,20 +1106,25 @@ address {
 
 @media screen and (min-width: 480px) {
   .team__item {
-    width: 450px;
+    max-width: 450px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .team__item {
-    width: 354px;
+    max-width: 354px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .team__item {
-    width: 270px;
+    max-width: 270px;
   }
+}
+
+.team__image {
+  display: block;
+  width: 100%;
 }
 
 .team__colleague {
@@ -1377,7 +1389,7 @@ address {
 }
 
 .project__item {
-  width: 100%;
+  max-width: 320px;
   margin: 15px;
   border: 1px solid #eee;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1393,19 +1405,19 @@ address {
 
 @media screen and (min-width: 480px) {
   .project__item {
-    width: 450px;
+    max-width: 450px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .project__item {
-    width: 354px;
+    max-width: 354px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .project__item {
-    width: 370px;
+    max-width: 370px;
   }
 }
 
@@ -1546,6 +1558,14 @@ address {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1200px) {
+  .footer__logo {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+  }
+}
+
 .footer__contacts {
   margin-bottom: 60px;
 }
@@ -1559,6 +1579,7 @@ address {
 @media screen and (min-width: 1200px) {
   .footer__contacts {
     margin-right: 70px;
+    text-align: left;
   }
 }
 
@@ -1570,6 +1591,12 @@ address {
   line-height: 1.14;
   text-transform: uppercase;
   color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__text {
+    text-align: left;
+  }
 }
 
 .footer__social {
@@ -1646,6 +1673,12 @@ address {
   line-height: 1.14;
   text-transform: uppercase;
   color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe__text {
+    text-align: left;
+  }
 }
 
 .subscribe__form {
