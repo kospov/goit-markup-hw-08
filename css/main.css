@@ -922,9 +922,9 @@ address {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
 }
 
@@ -976,9 +976,10 @@ address {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  text-align: center;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .features__title {
     text-align: left;
   }
@@ -1318,7 +1319,7 @@ address {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  margin-right: -8px;
+  margin-top: -15px;
   margin-bottom: 40px;
   margin-left: -8px;
 }
@@ -1339,8 +1340,8 @@ address {
 }
 
 .filter__item {
-  margin-right: 8px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 8px;
 }
 
 .filter__btn {
