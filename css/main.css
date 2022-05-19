@@ -57,6 +57,7 @@ address {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  outline: 1px solid tomato;
 }
 
 @media screen and (min-width: 480px) {
@@ -462,6 +463,7 @@ address {
   }
   .contacts__item:not(:last-child) {
     margin-right: 30px;
+    margin-bottom: 0;
   }
 }
 
@@ -544,7 +546,7 @@ address {
 
 /* HERO */
 .hero {
-  max-width: 1600px;
+  max-width: 100vw;
   padding-top: 118px;
   padding-bottom: 118px;
   margin-right: auto;
